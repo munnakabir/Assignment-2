@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(220, 180, 107);
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color:rgb(134, 170, 134);
+    border-radius: 10px;
+    box-shadow: green;
+  }
+  
+  h2 {
+    margin-top: 5;
+  }
+  
+  .from-input {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: initial;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color:rgb(64, 10, 174);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

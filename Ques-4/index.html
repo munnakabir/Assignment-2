@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="registration-form" >
+      <h2 style="text-align: center;">Registration Form</h2>
+      <div class="from-input">
+        <label for="username">First Name:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="from-input">
+        <label for="username">Last Name:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="from-input">
+        <label for="address">District:</label>
+        <input type="text" id="address" name="District" required>
+      </div>
+      <div class="from-input">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="from-input">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+      </div>
+      <div class="from-input">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
+      </div>
+      <div class="from-input">
+        <label for="birthdate">Date of Birth:</label>
+        <input type="month" id="birthdate" name="birthdate" required>
+      </div>
+      <div class="from-input">
+        <label for="phone">Contact No. :</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="+880" required>
+      </div>
+      
+      <div class="from-input">
+        <input type="submit" value="SUBMIT">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

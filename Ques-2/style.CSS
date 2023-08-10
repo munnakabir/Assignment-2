@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(134, 7, 134);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 33.33%;
+    background-color:gainsboro;
+    padding: 20px;
+    border: 1px solid #bda2a2;
+  }
+  
+  h2 {
+    color:black;
+  }
+  
+  p {
+    color: #060606;
+  }
+  
+  ul {
+    list-style-type: disc;
+    color: #050505;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  img{
+    width: 100%;
+  }
